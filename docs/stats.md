@@ -94,7 +94,6 @@ This file controls which plugins are enabled and their settings. See the file fo
 #### Plugin Categories
 
 1. **Working Plugins** - Fully functional in the fork:
-
    - `languages`, `notable`, `isocalendar`, `topics`, `code`
    - `stars`, `stargazers`, `followup`, `reactions`
    - `calendar`, `discussions`, `gists`, `people`, `projects`
@@ -199,18 +198,15 @@ assets/img/stats/
 ### Common Issues
 
 1. **"Unexpected error" in generated SVG**
-
    - Check workflow logs for specific plugin errors
    - Verify token has required scopes
    - Ensure fork is being used correctly
 
 2. **Projects plugin fails**
-
    - Token needs `read:project` scope
    - Or disable the plugin if not needed
 
 3. **Workflow timeout**
-
    - Reduce `analysis_timeout` for language plugin
    - Disable `indepth` analysis
    - Reduce number of enabled plugins
